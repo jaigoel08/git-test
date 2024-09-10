@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#login-form {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+#login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form label {
+    margin-bottom: 10px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-form input[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#report-portal {
+    display: none;
+    padding: 20px;
+}
+
+#report-portal h1 {
+    color: #333;
+}
